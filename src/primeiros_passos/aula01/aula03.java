@@ -1,11 +1,11 @@
 package primeiros_passos.aula01;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class aula03 {
 
     public static void main(String[] args){
-        //Scanner sc = new Scanner();
+        //Scanner sc = new Scanner(System.in);
 
         String original = "Abcd Fthsh lqlalsldl SLSKSK";
 
