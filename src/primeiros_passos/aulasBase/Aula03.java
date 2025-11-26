@@ -1,8 +1,8 @@
-package primeiros_passos.aula01;
+package primeiros_passos.aulasBase;
 
 //import java.util.Scanner;
 
-public class aula03 {
+public class Aula03 {
 
     public static void main(String[] args){
         //Scanner sc = new Scanner(System.in);

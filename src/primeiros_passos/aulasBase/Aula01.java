@@ -1,11 +1,11 @@
-package primeiros_passos.aula01;
+package primeiros_passos.aulasBase;
 import java.util.Scanner;
 
 // a = Math.sqrt(x); variavel A recebe a raiz quadrade de x
 // a = Math.pow(x, y); variavel a recebe o resultado de x elevado a y
 // a = Math.abs(x); Variavel A recebe o valor absoluto de x
 
-public class aula01 {
+public class Aula01 {
 
     public static void main(String[] args) {
 

@@ -1,7 +1,7 @@
-package primeiros_passos.aula01;
+package primeiros_passos.aulasBase;
 import java.util.Scanner;
 
-public class aula02 {
+public class Aula02 {
 
     public static void main(String[] args){
 
