@@ -1,4 +1,4 @@
-package primeiros_passos.programProduto.exercicios;
+package primeiros_passos.exercicios;
 //import java.util.Scanner;
 
 
