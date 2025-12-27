@@ -12,17 +12,17 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Product product = new Product();
-
         System.out.println("Enter product data: ");
         System.out.println("Name: ");
-        product.name = sc.nextLine();
+        String name = sc.nextLine();
         System.out.println("Price: ");
-        product.price = sc.nextDouble();
-        System.out.println("Quantity: ");
-        product.quantity = sc.nextInt();
+        double price = sc.nextDouble();
+        //System.out.println("Quantity: ");
+        //int quantity = sc.nextInt();
 
-        System.out.println(product.name + ", " + product.price + ", " + product.quantity);
+        Product product = new Product(name, price);
+
+        System.out.println(product.getName() + ", " + product.getPrice() + ", " + product.getQuantity());
 
         sc.close();
     }
